@@ -10,7 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/api/people", (req, res) => {
-  res.status(200).json({ success: true, data: people });
+  res.status(200).json({ success: true / T, data: people });
 });
 
 app.post("/api/people", (req, res) => {
